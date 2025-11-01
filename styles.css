@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+#container {
+  margin: 20px;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+#container::before {
+  content: "Before Element ";
+  color: #f00;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+#container::after {
+  content: " After Element";
+  color: #f00;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
